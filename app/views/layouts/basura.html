@@ -1,0 +1,105 @@
+ <!-- <li>
+              <a class="{{ set_background_option_nav('item_masters') }}" href="">
+                <i class="ion-cube"></i> ITEM
+              </a>
+            </li> -->
+
+            <li>
+              <a href="#" class="{{ set_background_option_nav('boms') }}" data-toggle="collapse" data-target="#BOM" aria-expanded="false">
+                <i class="ion-ios-albums"></i> BOM<span class="caret"></span> 
+              </a>
+              <ul class="nav collapse {{ active_option_nav('boms') }}" id="BOM" role="menu">
+                <li>{{ link_to_route('boms.index', 'BOM Entry') }}</li>
+                <li><a href="#">BOM Query</a></li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a class="{{ set_background_option_nav('intransits') }}" href="">
+                <i class="ion-paper-airplane"></i> IN-TRANSIT
+              </a>
+            </li>
+
+            <li>
+              <a class="{{ set_background_option_nav('po') }}" href="#" data-toggle="collapse" data-target="#PO" aria-expanded="false">
+                <i class="ion-android-checkbox-outline"></i> PO<span class="caret"></span>
+              </a>
+              <ul class="nav collapse {{ active_option_nav('po') }}" id="PO" role="menu">
+                <li></li>
+                <li><a href="#">PO Query</a></li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#" class="{{ set_background_option_nav('stocks') }}" data-toggle="collapse" data-target="#Stock" aria-expanded="false">
+                <i class="ion-stop"></i> STOCK<span class="caret"></span>
+              </a>
+              <ul class="nav collapse {{ active_option_nav('stocks') }}" id="Stock" role="menu">
+                <li></li>
+                <li><a href="#">Stock History</a></li>
+              </ul>
+            </li>
+
+
+            
+            <li>
+              <a class="{{ set_background_option_nav('plans') }}" href="">
+                <i class="ion-person-stalker"></i> PRODUCTION PLAN
+              </a>
+            </li>
+            <li>
+              <a class="{{ set_background_option_nav('vendors') }}" href="">
+                <i class="ion-person-stalker"></i> VENDORS
+              </a>
+            </li>
+
+            <li>
+              <a class="{{ set_background_option_nav('locations') }}" href="">
+                <i class="ion-android-archive"></i> LOCATIONS
+              </a>
+            </li>
+
+            <li>
+              <a class="{{ set_background_option_nav('stock_types') }}" href="">
+                <i class="ion-android-checkbox-blank"></i> STOCK TYPES
+              </a>
+            </li>
+
+            <li>
+              <a class="{{ set_background_option_nav('movement_types') }}" href="">
+                <i class="ion-arrow-move"></i> MOVEMENT TYPES
+              </a>
+            </li>
+
+            
+            <li>
+              <a class="{{ set_background_option_nav('order_categories') }}" href="">
+                <i class="ion-android-open"></i> ORDER CATEGORIES
+              </a>
+            </li>
+
+            <li>
+              <a class="{{ set_background_option_nav('item_types') }}" href="">
+                <i class="ion-ios-browsers"></i> ITEM TYPES
+              </a>
+            </li>
+
+            
+            
+            <li>
+              <a class="{{ set_background_option_nav('item_units') }}" href="">
+                <i class="ion-ios-box"></i> ITEM UNITS
+              </a>
+            </li>
+            <li>
+              <a class="{{ set_background_option_nav('item_status') }}" href="">
+                <i class="ion-crop"></i> ITEM STATUS
+              </a>
+            </li>
+            <li>
+              <a class="{{ set_background_option_nav('lines') }}" href="">
+                <i class="ion-android-funnel"></i> LINES
+              </a>
+            </li> 

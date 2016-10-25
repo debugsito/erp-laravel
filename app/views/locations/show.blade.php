@@ -1,0 +1,1 @@
+C:\Users\Sistemas02\Documents\Proyectos\erp\erp\app/views/locations/show.blade.php

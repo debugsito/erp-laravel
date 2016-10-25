@@ -1,0 +1,1 @@
+/home/ezrra/Documents/dev/projects/erp/erp/app/views/sales_orders/show.blade.php

@@ -1,0 +1,1 @@
+/home/ezrra/Documents/dev/projects/erp/erp/app/views/movement_types/show.blade.php

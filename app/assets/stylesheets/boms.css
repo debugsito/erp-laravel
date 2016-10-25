@@ -1,0 +1,4 @@
+.content-search-item-create-bom, .content-items-add-bom {
+	overflow: auto;
+	max-height: 150px;
+}

@@ -1,0 +1,1 @@
+/home/ezrra/Documents/dev/projects/baja-skiva-erp/app/views/intransits/show.blade.php

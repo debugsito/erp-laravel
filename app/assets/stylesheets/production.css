@@ -1,0 +1,18 @@
+.production-table tbody tr {
+	cursor: pointer;
+}
+.production-table tbody tr:hover td {
+	background: #EEEEEE;
+}
+
+.glyphicon-remove {
+	color:red;
+}
+
+.glyphicon-ok {
+	color:green;
+}
+
+.caret {
+	top: 18px;
+}
